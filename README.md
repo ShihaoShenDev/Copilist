@@ -302,7 +302,7 @@ Go to https://github.com/aptdnfapt/qwen-code-oai-proxy for more information abou
 }
 ```
 
-## Mistral
+## Mistral (WIP)
 ```json
 {
     "name": "Mistral",
