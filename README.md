@@ -259,28 +259,8 @@ Go to https://github.com/aptdnfapt/qwen-code-oai-proxy for more information abou
             "maxOutputTokens": 16000
         },
         {
-            "id": "kimi-k2.5-free",
-            "name": "Kimi K2.5 Free",
-            "url": "https://opencode.ai/zen/v1",
-            "toolCalling": true,
-            "vision": false,
-            "thinking": false,
-            "maxInputTokens": 128000,
-            "maxOutputTokens": 16000
-        },
-        {
             "id": "minimax-m2.5-free",
             "name": "MiniMax M2.5 Free",
-            "url": "https://opencode.ai/zen/v1",
-            "toolCalling": true,
-            "vision": false,
-            "thinking": false,
-            "maxInputTokens": 128000,
-            "maxOutputTokens": 16000
-        },
-        {
-            "id": "glm-5-free",
-            "name": "GLM 5 Free",
             "url": "https://opencode.ai/zen/v1",
             "toolCalling": true,
             "vision": false,
