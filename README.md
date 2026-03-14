@@ -1,28 +1,9 @@
 # Copilist
 A BYOK list fot GitHub Copilot for VS Code.
 
-## ChatAnywhere (WIP)
-```json
-{
-    "name": "ChatAnywhere",
-    "vendor": "customoai",
-    "models": [
-        {
-            "name": "GPT-5 mini",
-            "url": "https://api.chatanywhere.tech",
-            "toolCalling": true,
-            "vision": true,
-            "thinking": true,
-            "maxInputTokens": 4096,
-            "maxOutputTokens": 4096,
-            "id": "gpt-5-mini"
-        }
-    ],
-    "apiKey": "YOUR_API_KEY"
-}
-```
+Click provider names to redirect to providers' API Key management page.
 
-## Xiaomi MiMo
+## [Xiaomi MiMo](https://platform.xiaomimimo.com/#/console/api-keys)
 ```json
 {
     "name": "Xiaomi",
@@ -34,8 +15,7 @@ A BYOK list fot GitHub Copilot for VS Code.
             "toolCalling": true,
             "vision": false,
             "thinking": true,
-            "maxInputTokens": 198144,
-            "maxOutputTokens": 64000,
+            "maxInputTokens": 262144
             "id": "mimo-v2-flash"
         }
     ],
@@ -43,7 +23,7 @@ A BYOK list fot GitHub Copilot for VS Code.
 }
 ```
 
-## iFlow
+## [iFlow](https://platform.iflow.cn/profile?tab=apiKey)
 ```json
 {
     "name": "iFlow",
@@ -203,45 +183,8 @@ A BYOK list fot GitHub Copilot for VS Code.
     "apiKey": "YOUR_API_KEY"
 }
 ```
-## Qwen Code (Local Proxy) (WIP)
-Go to https://github.com/aptdnfapt/qwen-code-oai-proxy for more information about the local proxy.
-```json
-{
-    "name": "Qwen Code (Local Proxy)",
-    "vendor": "customoai",
-    "models": [
-        {
-            "id": "qwen3-coder-plus",
-            "name": "Coder Model",
-            "url": "http://localhost:8080/v1",
-            "toolCalling": true,
-            "vision": false,
-            "maxInputTokens": 128000,
-            "maxOutputTokens": 64000
-        },
-        {
-            "id": "qwen3-coder-flash",
-            "name": "Coder Model (Flash)",
-            "url": "http://localhost:8080/v1",
-            "toolCalling": true,
-            "vision": false,
-            "maxInputTokens": 128000,
-            "maxOutputTokens": 64000
-        },
-        {
-            "id": "qwen3-vl-plus",
-            "name": "Vision Model",
-            "url": "http://localhost:8080/v1",
-            "toolCalling": true,
-            "vision": true,
-            "maxInputTokens": 128000,
-            "maxOutputTokens": 64000
-        }
-    ]
-}
-```
 
-## OpenCode Zen (WIP)
+## [OpenCode Zen](https://opencode.ai/zen) (WIP)
 ```json
 {
     "name": "OpenCode Zen",
@@ -277,6 +220,16 @@ Go to https://github.com/aptdnfapt/qwen-code-oai-proxy for more information abou
             "thinking": false,
             "maxInputTokens": 128000,
             "maxOutputTokens": 16000
+        },
+        {
+            "id": "trinity-large-preview-free",
+            "name": "Trinity Large Preview",
+            "url": "https://opencode.ai/zen/v1",
+            "toolCalling": true,
+            "vision": false,
+            "thinking": false,
+            "maxInputTokens": 128000,
+            "maxOutputTokens": 16000
         }
     ]
 }
@@ -295,8 +248,7 @@ Go to https://github.com/aptdnfapt/qwen-code-oai-proxy for more information abou
             "url": "https://api.mistral.ai/v1",
             "toolCalling": true,
             "vision": false,
-            "maxInputTokens": 192000,
-            "maxOutputTokens": 64000
+            "maxInputTokens": 256000
         }
     ]
 }
@@ -315,9 +267,59 @@ Go to https://github.com/aptdnfapt/qwen-code-oai-proxy for more information abou
             "url": "https://codestral.mistral.ai/v1",
             "toolCalling": true,
             "vision": false,
-            "maxInputTokens": 112000,
-            "maxOutputTokens": 16000
+            "maxInputTokens": 128000
         }
     ]
+}
+```
+
+# "Not recommended" providers
+
+## ~~Qwen Code~~
+> [!CAUTION]
+> **It may violate [Qwen Terms of Service](https://qwen.ai/termsservice).**
+>
+> **NOT RECOMMENDED ANYMORE.**
+
+~~Go to [qwen-code-oai-proxy](https://github.com/aptdnfapt/qwen-code-oai-proxy) for more information about the local proxy.~~
+```json
+{
+    "name": "Qwen Code (Local Proxy)",
+    "vendor": "customoai",
+    "models": [
+        {
+            "id": "coder-model",
+            "name": "Coder Model",
+            "url": "http://localhost:8080/v1",
+            "toolCalling": true,
+            "vision": true,
+            "thinking": true,
+            "maxInputTokens": 65536
+        }
+    ]
+}
+```
+
+## ChatAnywhere (WIP)
+> [!NOTE]
+> This provider may not compatible with Copilot.
+
+```json
+{
+    "name": "ChatAnywhere",
+    "vendor": "customoai",
+    "models": [
+        {
+            "name": "GPT-5 mini",
+            "url": "https://api.chatanywhere.tech",
+            "toolCalling": true,
+            "vision": true,
+            "thinking": true,
+            "maxInputTokens": 4096,
+            "maxOutputTokens": 4096,
+            "id": "gpt-5-mini"
+        }
+    ],
+    "apiKey": "YOUR_API_KEY"
 }
 ```
