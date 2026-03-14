@@ -235,7 +235,7 @@ Click provider names to redirect to providers' API Key management page.
 }
 ```
 
-## Mistral (WIP)
+## [Mistral](https://console.mistral.ai/home?profile_dialog=api-keys) (WIP)
 ```json
 {
     "name": "Mistral",
@@ -254,7 +254,7 @@ Click provider names to redirect to providers' API Key management page.
 }
 ```
 
-## Mistral (Codestral)
+## [Mistral (Codestral)](https://console.mistral.ai/codestral)
 ```json
 {
     "name": "Codestral",
