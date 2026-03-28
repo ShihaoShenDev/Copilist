@@ -162,9 +162,7 @@ Click provider names to redirect to providers' API Key management page.
     "apiKey": "YOUR_API_KEY"
 }
 ```
-
-## Closed Providers
-## [iFlow](https://platform.iflow.cn/profile?tab=apiKey)
+## iFlow
 
 > [!IMPORTANT]
 > iFlow CLI 将于2026年4月17日（北京时间）正式停止服务，请大家[迁移至 Qoder](https://platform.iflow.cn/email-collect)。
