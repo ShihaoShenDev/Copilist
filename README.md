@@ -141,7 +141,7 @@ Click provider names to redirect to providers' API Key management page.
 
 ## ChatAnywhere (WIP)
 > [!NOTE]
-> This provider may not compatible with Copilot.
+> This provider's free API key may not compatible with Copilot.
 
 ```json
 {
@@ -162,10 +162,14 @@ Click provider names to redirect to providers' API Key management page.
     "apiKey": "YOUR_API_KEY"
 }
 ```
-## iFlow
+## ~~iFlow~~
 
 > [!IMPORTANT]
-> iFlow CLI 将于2026年4月17日（北京时间）正式停止服务，请大家[迁移至 Qoder](https://platform.iflow.cn/email-collect)。
+> iFlow CLI will officially shut down on April 17, 2026 (Beijing Time). Please [migrate to Qoder](https://platform.iflow.cn/email-collect).
+
+<details>
+
+<summary>Still want to use? </summary>
 
 ```json
 {
@@ -326,3 +330,5 @@ Click provider names to redirect to providers' API Key management page.
     "apiKey": "YOUR_API_KEY"
 }
 ```
+
+</details>
